@@ -1,0 +1,6 @@
+print "Bir sayi giriniz : "
+sayi=gets
+print "İkinci sayiyi giriniz : "
+sayi2=gets
+toplam=sayi.to_i+sayi2.to_i
+puts "Sayilarin toplamı : #{toplam}"
