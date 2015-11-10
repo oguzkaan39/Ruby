@@ -1,0 +1,12 @@
+
+print "Yaşınızı giriniz : "
+yas=gets.chomp
+
+if yas.to_i<=24
+	puts "Genç kategorisi"
+elsif yas.to_i>=51
+	puts "Yaşlı kategorisi"
+else 25..50
+	puts "Yetişkin kategorisi"
+
+end
