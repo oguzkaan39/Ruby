@@ -1,0 +1,5 @@
+sayac = 1
+while sayac <=10
+  print "{#sayac}"
+  sayac = sayac + 1 
+end
