@@ -1,0 +1,18 @@
+class Robot
+
+	def initialize(isim, sahip)
+		@isim = isim
+		@sahip = sahip
+	end
+	def isim
+		@isim
+	end
+	def isim=(isim)
+		@isim=isim
+	end
+	
+end
+turk_bot=Robot.new("Türk Robot", "Oğuz")
+puts turk_bot.isim
+turk_bot.isim = "Oğuz"
+puts turk_bot.isim
