@@ -4,15 +4,20 @@ class Robot
 		@isim = isim
 		@sahip = sahip
 	end
+	#"isim" metodu isim değişkenine ulaşmak için yarattığımız metod.
 	def isim
 		@isim
 	end
+	#"isim=" metodu ismini değiştirmek icin yarattığımız metod.
 	def isim=(isim)
 		@isim=isim
 	end
 	
 end
 turk_bot=Robot.new("Türk Robot", "Oğuz")
+#Robotun ismine ulaştığımız satır
 puts turk_bot.isim
+#Robotun ismini değiştirme satırı
 turk_bot.isim = "Oğuz"
+#Robotun değiştirdiğimiz ismine ulaştığımız satır
 puts turk_bot.isim
