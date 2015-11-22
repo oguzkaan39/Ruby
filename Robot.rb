@@ -52,7 +52,6 @@ class Robot
  			puts "Birinci sayiyi gir : "
  			sayi1=gets
  			puts "ikinci sayiyi gir"
- 			
  			sayi2=gets
  			toplam=sayi1.to_i+sayi2.to_i
  			puts "İki sayiyin toplamı : #{toplam}"
@@ -61,7 +60,6 @@ class Robot
  			puts "Birinci sayiyi gir : "
  			sayi1=gets
  			puts "İkinci sayiyi gir : "
- 			
  			sayi2=gets
  			fark=sayi1.to_i-sayi2.to_i
  			puts "İki sayinin farki : #{fark}"
