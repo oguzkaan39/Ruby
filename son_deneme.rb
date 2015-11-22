@@ -1,1 +1,0 @@
-puts "Bu son denemedir :D"
