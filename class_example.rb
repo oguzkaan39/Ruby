@@ -8,5 +8,6 @@ class Bitkiler
 		puts "Bitkilerim #{bitki1} ve #{bitki2}"
 	end
 end
+
 bitki_sinifi = Bitkiler.new("Papatya", "Gül")
 bitki_sinifi.bitki
