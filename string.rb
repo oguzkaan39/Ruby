@@ -8,8 +8,8 @@ Bir de burada yazıyı nereye yazarsak bize öyle gözükecektir,
 yani boşluklar önemlidir. Örneğin :
 
 Merhaba 
-            Dünya 
-                      :)
+            Dünya  
+                        :)
 
 SINIRLAYICI
 puts hd
