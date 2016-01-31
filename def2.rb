@@ -13,8 +13,22 @@ yas = gets.chomp
 def soru_sor(soru)
 	print(soru)
 	gets.chomp
+
+	while sayı.to_i!=0
+		if sayı.to_i%2==0
+		puts "Sayı çift sayıdır"
+		elsif sayı.to_i%2!=0
+		puts "Sayı tek sayıdır"
+		else 
+		puts " "
+		end
+	end
+
 end
- ad = soru_sor("Adınız: ")
- soyad = soru_sor("Soyadınız: ")
- yas = soru_sor("Yasınız ")
+ 
+soru = soru_sor("Sayı giriniz ")
+
+soru_sor(soru)
+
+
 

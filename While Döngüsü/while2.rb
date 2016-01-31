@@ -11,7 +11,7 @@ secim = gets.chomp
 
 while secim.to_i!=0
 
-	print "Bir seçim yapınız :"
+	print "Tekrar secim yapınız : "
 
 	secim=gets.chomp.to_i
 
@@ -19,9 +19,12 @@ while secim.to_i!=0
 		puts "Toplama işlemini seçtiniz."
 	elsif secim.to_i==2
 		puts "Çarpma işlemini seçtiniz. "
-	else 
+	else
 		puts " "
-	end
+		end
+
+
+	
 
 end
 
